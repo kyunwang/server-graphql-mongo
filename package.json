@@ -1,0 +1,26 @@
+{
+	"name": "server-graphql-mongo",
+	"version": "0.0.1",
+	"author": "Kang Yun Wang <me@kyunwang.nl> (https://www.kyunwang.nl)",
+	"license": "MIT",
+	"description": "",
+	"keywords": [],
+	"scripts": {
+		"start": "nodemon --exec babel-node src/index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/kyunwang/server-graphql-mongo.git"
+	},
+	"bugs": {
+		"url": "https://github.com/kyunwang/server-graphql-mongo/issues"
+	},
+	"homepage": "https://github.com/kyunwang/server-graphql-mongo",
+	"devDependencies": {
+		"@babel/cli": "^7.4.3",
+		"@babel/core": "^7.4.3",
+		"@babel/node": "^7.2.2",
+		"@babel/preset-env": "^7.4.3",
+		"nodemon": "^1.18.11"
+	}
+}
